@@ -17,7 +17,7 @@ if (isset($_POST['notas']) && isset($_POST['notaInicial']) && isset($_POST['tipo
 
     $indiceNotaRaiz = $cromaticaAsociada[$notaFinal] - 1;
 
-
+ 
     $escala = [];
     $salto = $indiceNotaRaiz;
 
