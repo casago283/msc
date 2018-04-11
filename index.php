@@ -1,7 +1,7 @@
 <?php
 require 'page.php';
 ini_set('display_errors', true);
-$p = new page();
+
 ?>
 
 <!doctype html>
