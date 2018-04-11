@@ -10,7 +10,7 @@ $escalas = ["mayor" => ['1', '1', '1/2', '1', '1', '1', '1/2'],
     "menor" => ['1', '1/2', '1', '1', '1/2', '1', '1'],
     "blues" => [],
     "pentatonica" => []
-];
+]; 
 
 if (isset($_POST['notas']) && isset($_POST['notaInicial']) && isset($_POST['tipo'])) {
 
