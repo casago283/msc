@@ -12,7 +12,7 @@ $cromaticaAsociada = ['C' => 1, 'C#' => 2, 'D' => 3, 'D#' => 4, 'E' => 5, 'F' =>
 $escalas = ["mayor" => ['1', '1', '1/2', '1', '1', '1', '1/2'],
     "menor" => ['1', '1/2', '1', '1', '1/2', '1', '1']
 ];
-
+//..
 if (isset($_POST['notas']) && isset($_POST['notaInicial']) && isset($_POST['tipo'])) {
 
     $indiceNotaRaiz = $cromaticaAsociada[$notaFinal] - 1;
