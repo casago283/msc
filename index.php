@@ -1,9 +1,10 @@
 <?php
 require 'page.php';
 ini_set('display_errors', true);
+$p= new page();
 
 ?>
-
+ 
 <!doctype html>
 <html lang="en">
     <head>
@@ -43,7 +44,7 @@ ini_set('display_errors', true);
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
             </br>
-            <?php if (!$p->getDatosValidos()) { ?>
+            <?php if (!$p->getDatosValidos() &&count ($_POST)>0 ) { ?>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="alert alert-warning" role="alert">
